@@ -1,0 +1,12 @@
+-- Retrieving all data from the "employees" table
+SELECT * FROM employees;
+
+-- Selecting employees with a salary greater than 55000
+SELECT first_name, last_name, salary
+FROM employees
+WHERE salary > 55000;
+
+-- Selecting employees hired after January 1, 2024
+SELECT first_name, last_name, hire_date
+FROM employees
+WHERE hire_date > '2024-01-01';
